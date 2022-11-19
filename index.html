@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Bootstrap</title>
+</head>
+<body>
+
+    <!--inicio navbar-->
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">Lugares del Mundo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Paises
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Argentina</a></li>
+                  <li><a class="dropdown-item" href="./Sucursales.html">Venezuela</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Mexico</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Contactos</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!--final navbar-->
+
+      <!--card-->
+      <div class="card" style="width: 18rem; margin-top: 1%;">
+        <img src="./bootstrap_imagenes/sand-7564466_960_720.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Desierto del Sahara</h5>
+          <p class="card-text">Con más de 9 400 000 km² de superficie, abarca la mayor parte de África del Norte ocupando una extensión casi tan grande como la de China o Estados Unidos. El Sahara se extiende desde el mar Rojo, incluyendo partes de la costa del Mediterráneo, hasta el océano Atlántico.</p>
+          <a href="https://goo.gl/maps/vjVKicWQSBPgbp5j6" class="btn btn-primary">Ubicacion</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem; margin-top:1% ;">
+        <img src="./bootstrap_imagenes/sunset-7499759_960_720.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Islas del Egeo</h5>
+          <p class="card-text">Las islas del Egeo son un numeroso y disperso grupo de unas 5000 islas e islotes situadas en el mar Egeo y del que poco más de 100 están habitadas. La gran mayoría de estas islas pertenecen a Grecia, y solo unas pocas son parte de Turquía.</p>
+          <a href="https://goo.gl/maps/Ag9ioCDXmiU5jzR87" class="btn btn-primary">Ubicacion</a>
+        </div>
+      </div>
+
+      <!--final cards-->
+
+      <!--textos-->
+
+      <div class="accordion" id="accordionExample" style="margin-top: 1%;">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Bosques
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Los 8 bosques más maravillosos del mundo.</strong>Sagano Bamboo Forest - Japón. Bosque de Sequoias en Yosemite - Estados Unidos. Selva Valdivia - Chile. Bosque andinopatagónico. Selva amazónica. Daintree Rainforest. Krzywy Las. Selva Negra.<code></code>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Ciudades
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Estas son las 10 ciudades más hermosas del mundo, según The Economist.</strong> Osaka y Melbourne. Amsterdam. Toronto. Frankfurt. Ginebra Vancouver. Copenhague. Viena. <code></code>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Montañas
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Las 10 montañas más altas del mundo.</strong>10. Annapurna I (8.091 metros) 9. Nanga Parbat (8.125 metros) 8. Manaslu (8.163 metros) 7. Dhaulagi (8.167 metros) 6. Cho Oyu (8.188 metros) 5. Makalu (8.485 metros) 4. Lhotse (8.516 metros) 3. Kanchenjunga (8.586 metros) 2. K2 (8.611 metros) 1. Monte Everest (8.848 metros) <code></code>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <nav aria-label="Page navigation example" style="margin-top: 1%;">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="./index.html">Pagina anterior</a></li>
+          <li class="page-item"><a class="page-link" href="./index.html">1</a></li>
+          <li class="page-item"><a class="page-link" href="./Nosotros.html">2</a></li>
+          <li class="page-item"><a class="page-link" href="./Sucursales.html">3</a></li>
+          <li class="page-item"><a class="page-link" href="./Nosotros.html">Pagina siguiente</a></li>
+        </ul>
+      </nav>
+
+      <!-- JavaScript Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    
+</body>
+</html>
